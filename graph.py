@@ -3,7 +3,7 @@
 class ALDirectedGraph(object):
     def __init__(self):
         self.Adj = {}
-    def itervertices():
+    def itervertices(self):
         """Iterate all vertices in the graph in arbitrary order."""
         return self.Adj.iterkeys()
     def add_vertex(self, u):
